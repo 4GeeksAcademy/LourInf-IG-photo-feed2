@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    background: lightgrey;
+  }
+  
+  img {
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+  }
+  .header-title {
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    width: 600px;
+    height: 740px;
+  }
+  
+  .title {
+    display: flex;
+    padding: 8px 0px;
+  }
+  
+  .profile {
+    padding-left: 18px;
+    margin: 20px 10px 0px 8px;
+    font-size: 32px;
+  }
+  .menu {
+    padding-right: 10px;
+    padding-left: 428px;
+    margin: 20px 0px 10px 8px;
+    font-size: 32px;
+  }
+  
+  .image {
+    height: 500px;
+  }
+  
+  .post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+    font-size: 32px;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding: 0px 25px;
+    text-align: justify;
+  }
+  
+  .likes {
+    padding-bottom: 15px;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0px;
+  }
+  
